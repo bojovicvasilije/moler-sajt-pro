@@ -25,7 +25,7 @@ const services = [
   {
     icon: Sparkles,
     title: "Dekorativne Tehnike",
-    description: "Venecijanski malter, stuko tehnika i druge dekorativne obrade zidova.",
+    description: "Radimo dekorativne tehnike koje prostoru daju luksuzni izgled – precizno, čisto i bez improvizacije. Ako želite zidove koji ostavljaju utisak na prvi pogled, zovite odmah.",
   },
   {
     icon: Palette,
