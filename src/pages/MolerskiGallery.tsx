@@ -72,7 +72,7 @@ const MolerskiGallery = () => {
         {/* Call to Action */}
         <div className="text-center mt-12 p-8 bg-secondary rounded-xl">
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-            Potrebni Vam su molerski radovi?
+            Potrebni su Vam molerski radovi?
           </h2>
           <a
             href="tel:+381693767622"
