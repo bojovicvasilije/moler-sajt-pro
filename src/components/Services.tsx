@@ -20,7 +20,7 @@ const services = [
   {
     icon: Layers,
     title: "Gipsani Radovi",
-    description: "Izrada gipsanih ploča, spuštenih plafona i zidnih obloga sa preciznom završnom obradom.",
+    description: "Loš gips se vidi zauvek. Mi radimo samo kako treba – ravno, čvrsto i estetski savršeno. Gipsani radovi koji podižu vrednost prostora. Pozovite!",
   },
   {
     icon: Sparkles,
