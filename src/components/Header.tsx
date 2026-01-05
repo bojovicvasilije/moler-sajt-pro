@@ -1,0 +1,114 @@
+import { useState } from "react";
+import { Menu, X, Phone, Clock, Instagram } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const navLinks = [
+    { href: "#pocetna", label: "Početna" },
+    { href: "#usluge", label: "Usluge" },
+    { href: "#galerija", label: "Galerija" },
+    { href: "#o-nama", label: "O Nama" },
+    { href: "#kontakt", label: "Kontakt" },
+  ];
+
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md border-b border-border">
+      {/* Top bar */}
+      <div className="bg-primary text-primary-foreground py-2">
+        <div className="container flex justify-between items-center text-sm">
+          <div className="flex items-center gap-6">
+            <a href="tel:+381601234567" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+              <Phone className="w-4 h-4" />
+              <span className="hidden sm:inline">+381 60 123 4567</span>
+            </a>
+            <div className="hidden md:flex items-center gap-2">
+              <Clock className="w-4 h-4" />
+              <span>Pon - Sub: 07:00 - 18:00</span>
+            </div>
+          </div>
+          <a 
+            href="https://instagram.com/molerskiradovi.krusevac" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+          >
+            <Instagram className="w-4 h-4" />
+            <span className="hidden sm:inline">@molerskiradovi.krusevac</span>
+          </a>
+        </div>
+      </div>
+
+      {/* Main navigation */}
+      <nav className="container py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <a href="#pocetna" className="flex items-center gap-3">
+            <div className="w-12 h-12 rounded-lg bg-primary flex items-center justify-center">
+              <span className="text-primary-foreground font-display text-2xl font-bold">M</span>
+            </div>
+            <div>
+              <h1 className="font-display text-xl font-semibold text-foreground leading-tight">
+                Molerski Radovi
+              </h1>
+              <p className="text-xs text-muted-foreground">Kruševac</p>
+            </div>
+          </a>
+
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center gap-8">
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-foreground/80 hover:text-primary font-medium transition-colors"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+
+          {/* CTA Button */}
+          <div className="hidden lg:block">
+            <Button asChild>
+              <a href="#kontakt">Zatražite Ponudu</a>
+            </Button>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="lg:hidden p-2 text-foreground"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
+
+        {/* Mobile Navigation */}
+        {isMenuOpen && (
+          <div className="lg:hidden mt-4 pb-4 border-t border-border pt-4 animate-fade-in">
+            <div className="flex flex-col gap-4">
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-foreground/80 hover:text-primary font-medium transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {link.label}
+                </a>
+              ))}
+              <Button asChild className="mt-2">
+                <a href="#kontakt">Zatražite Ponudu</a>
+              </Button>
+            </div>
+          </div>
+        )}
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
