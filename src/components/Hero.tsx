@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-painting.jpg";
 
@@ -50,14 +50,8 @@ const Hero = () => {
             ))}
           </div>
 
-          {/* CTA Buttons */}
-          <div className="animate-fade-up opacity-0 flex flex-col sm:flex-row gap-4" style={{ animationDelay: "0.5s", animationFillMode: "forwards" }}>
-            <Button size="lg" asChild className="group">
-              <a href="#kontakt">
-                Zatražite Besplatnu Ponudu
-                <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
-              </a>
-            </Button>
+          {/* CTA Button */}
+          <div className="animate-fade-up opacity-0" style={{ animationDelay: "0.5s", animationFillMode: "forwards" }}>
             <Button variant="outline" size="lg" asChild className="bg-transparent border-hero-text/30 text-hero-text hover:bg-hero-text/10 hover:text-hero-text">
               <a href="#galerija">
                 Pogledajte Radove
