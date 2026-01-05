@@ -28,11 +28,6 @@ const services = [
     description: "Radimo dekorativne tehnike koje prostoru daju luksuzni izgled – precizno, čisto i bez improvizacije. Ako želite zidove koji ostavljaju utisak na prvi pogled, zovite odmah.",
   },
   {
-    icon: Palette,
-    title: "Izbor Boja",
-    description: "Besplatno savetovanje pri izboru boja i materijala za vaš prostor.",
-  },
-  {
     icon: Shield,
     title: "Garancija Kvaliteta",
     description: "Garantujemo kvalitet svih izvedenih radova uz korišćenje premium materijala.",
