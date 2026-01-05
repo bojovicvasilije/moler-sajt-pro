@@ -31,8 +31,8 @@ const Hero = () => {
           </div>
 
           <h1 className="animate-fade-up opacity-0 font-display text-4xl md:text-5xl lg:text-6xl font-bold text-hero-text leading-tight mb-6" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
-            Kvalitetni Molersko
-            <span className="block text-primary">Fasaderski Radovi</span>
+            Moleraj, Fasade,
+            <span className="block text-primary">Gips</span>
           </h1>
 
           <p className="animate-fade-up opacity-0 text-lg md:text-xl text-hero-text/80 mb-8 leading-relaxed" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
