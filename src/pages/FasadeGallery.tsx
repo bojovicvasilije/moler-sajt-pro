@@ -80,7 +80,7 @@ const FasadeGallery = () => {
             Potrebna Vam je nova fasada?
           </h2>
           <a
-            href="#kontakt"
+            href="tel:+381693767622"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
           >
             Kontaktirajte nas
