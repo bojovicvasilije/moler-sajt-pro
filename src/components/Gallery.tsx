@@ -89,10 +89,26 @@ const Gallery = () => {
               </div>
             );
 
-            // If it's a facade item, wrap in Link
+            // Wrap in Link based on category
             if (item.category === "Fasade") {
               return (
                 <Link key={index} to="/fasade">
+                  {content}
+                </Link>
+              );
+            }
+
+            if (item.category === "Molerski radovi") {
+              return (
+                <Link key={index} to="/molerski">
+                  {content}
+                </Link>
+              );
+            }
+
+            if (item.category === "Gipsani radovi") {
+              return (
+                <Link key={index} to="/gipsani">
                   {content}
                 </Link>
               );
