@@ -1,10 +1,30 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import molerskiWork1 from "@/assets/molerski-work-1.jpg";
+import molerskiWork2 from "@/assets/molerski-work-2.jpg";
+import molerskiWork3 from "@/assets/molerski-work-3.jpg";
+import molerskiWork4 from "@/assets/molerski-work-4.jpg";
+import molerskiWork5 from "@/assets/molerski-work-5.jpg";
 
 const molerskiImages = [
   {
     src: molerskiWork1,
+    title: "Molerski radovi",
+  },
+  {
+    src: molerskiWork2,
+    title: "Molerski radovi",
+  },
+  {
+    src: molerskiWork3,
+    title: "Molerski radovi",
+  },
+  {
+    src: molerskiWork4,
+    title: "Molerski radovi",
+  },
+  {
+    src: molerskiWork5,
     title: "Molerski radovi",
   },
 ];
