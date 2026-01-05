@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Phone, Clock, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,16 +42,18 @@ const Header = () => {
       </div>
 
       {/* Main navigation */}
-      <nav className="container py-4">
+      <nav className="container py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#pocetna" className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-display text-2xl font-bold">M</span>
-            </div>
+            <img 
+              src={logo} 
+              alt="ADS Dekor 037 Logo" 
+              className="w-14 h-14 rounded-full object-cover shadow-soft"
+            />
             <div>
               <h1 className="font-display text-xl font-semibold text-foreground leading-tight">
-                Molerski Radovi
+                ADS Dekor 037
               </h1>
               <p className="text-xs text-muted-foreground">Kruševac</p>
             </div>
