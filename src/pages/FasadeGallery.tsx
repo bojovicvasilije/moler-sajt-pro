@@ -6,7 +6,7 @@ const facadeImages = [
   {
     src: facadeMain,
     title: "Fasada porodične kuće",
-    description: "Kompletna termoizolacija i završna obrada",
+    description: "",
   },
   // Dodajte više slika ovde
 ];
