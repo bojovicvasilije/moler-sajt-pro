@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,12 +11,14 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-display text-2xl font-bold">M</span>
-              </div>
+              <img 
+                src={logo} 
+                alt="ADS Dekor 037 Logo" 
+                className="w-14 h-14 rounded-full object-cover"
+              />
               <div>
                 <h3 className="font-display text-xl font-semibold leading-tight">
-                  Molerski Radovi
+                  ADS Dekor 037
                 </h3>
                 <p className="text-sm text-background/60">Kruševac</p>
               </div>
@@ -94,7 +97,7 @@ const Footer = () => {
       <div className="border-t border-background/10">
         <div className="container py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-background/60">
-            <p>© {currentYear} Molerski Radovi Kruševac. Sva prava zadržana.</p>
+            <p>© {currentYear} ADS Dekor 037 Kruševac. Sva prava zadržana.</p>
             <p>Kvalitet i preciznost u svakom potezu četke.</p>
           </div>
         </div>
