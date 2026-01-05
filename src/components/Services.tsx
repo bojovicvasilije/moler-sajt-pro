@@ -49,7 +49,7 @@ const Services = () => {
             Naše Usluge
           </span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
-            Kompletna Ponuda Molerskih Radova
+            Sve za Vaš dom!
           </h2>
           <p className="text-muted-foreground text-lg">
             Od jednostavnog krečenja do kompleksnih fasaderskih projekata - 
