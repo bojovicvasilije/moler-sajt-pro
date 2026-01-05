@@ -1,14 +1,37 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import facadeMain from "@/assets/facade-main.jpg";
+import facade2 from "@/assets/facade-2.jpg";
+import facade3 from "@/assets/facade-3.jpg";
+import facade4 from "@/assets/facade-4.jpg";
+import facade5 from "@/assets/facade-5.jpg";
+import facade6 from "@/assets/facade-6.jpg";
 
 const facadeImages = [
   {
     src: facadeMain,
     title: "Fasada porodične kuće",
-    description: "",
   },
-  // Dodajte više slika ovde
+  {
+    src: facade2,
+    title: "Moderna vila",
+  },
+  {
+    src: facade3,
+    title: "Stambena zgrada",
+  },
+  {
+    src: facade4,
+    title: "Porodična kuća",
+  },
+  {
+    src: facade5,
+    title: "Luksuzna vila",
+  },
+  {
+    src: facade6,
+    title: "Renovirana fasada",
+  },
 ];
 
 const FasadeGallery = () => {
@@ -52,9 +75,6 @@ const FasadeGallery = () => {
                   <h3 className="text-hero-text font-display text-xl font-semibold">
                     {image.title}
                   </h3>
-                  <p className="text-hero-text/80 text-sm mt-1">
-                    {image.description}
-                  </p>
                 </div>
               </div>
             </div>
