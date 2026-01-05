@@ -1,4 +1,4 @@
-import { Paintbrush, Home, Building2, Sparkles, Palette, Shield } from "lucide-react";
+import { Paintbrush, Home, Building2, Sparkles, Palette, Shield, Layers } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
@@ -16,6 +16,11 @@ const services = [
     icon: Home,
     title: "Gletovanje",
     description: "Priprema površina, gletovanje zidova i plafona za savršeno glatku završnicu.",
+  },
+  {
+    icon: Layers,
+    title: "Gipsani Radovi",
+    description: "Izrada gipsanih ploča, spuštenih plafona i zidnih obloga sa preciznom završnom obradom.",
   },
   {
     icon: Sparkles,
