@@ -38,7 +38,7 @@ const About = () => {
             {/* Features List */}
             <div className="mt-8 space-y-4">
               {[
-                "Besplatna procena i savetovanje",
+                "Gipsani radovi",
                 "Korišćenje premium materijala",
                 "Čisto i uredno radno mesto",
                 "Poštovanje rokova",
