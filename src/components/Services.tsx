@@ -10,7 +10,7 @@ const services = [
   {
     icon: Building2,
     title: "Fasaderski Radovi",
-    description: "Kompletna obnova fasada, termoizolacija i dekorativne fasadne obrade.",
+    description: "Radimo profesionalne fasaderske radove koji štite i podižu vrednost objekta. Brzo, kvalitetno i bez improvizacije. Toplotna izolacija, završna obrada i besprekoran izgled. Ako hoćete fasadu koja traje godinama — zovite odmah.",
   },
   {
     icon: Home,
