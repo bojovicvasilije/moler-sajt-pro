@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import facadeMain from "@/assets/facade-main.jpg";
 import gypsumWork from "@/assets/gypsum-work.jpg";
 import paintingWork from "@/assets/painting-work.jpg";
@@ -67,26 +68,38 @@ const Gallery = () => {
 
         {/* Gallery Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredItems.map((item, index) => (
-            <div
-              key={index}
-              className="group relative overflow-hidden rounded-xl aspect-square cursor-pointer"
-            >
-              <img
-                src={item.src}
-                alt={item.alt}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-hero-overlay/90 via-hero-overlay/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <span className="text-primary text-sm font-medium">{item.category}</span>
-                  <h3 className="text-hero-text font-display text-xl font-semibold mt-1">
-                    {item.title}
-                  </h3>
+          {filteredItems.map((item, index) => {
+            const content = (
+              <div
+                className="group relative overflow-hidden rounded-xl aspect-square cursor-pointer"
+              >
+                <img
+                  src={item.src}
+                  alt={item.alt}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-hero-overlay/90 via-hero-overlay/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <span className="text-primary text-sm font-medium">{item.category}</span>
+                    <h3 className="text-hero-text font-display text-xl font-semibold mt-1">
+                      {item.title}
+                    </h3>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+
+            // If it's a facade item, wrap in Link
+            if (item.category === "Fasade") {
+              return (
+                <Link key={index} to="/fasade">
+                  {content}
+                </Link>
+              );
+            }
+
+            return <div key={index}>{content}</div>;
+          })}
         </div>
 
         {/* View More */}
