@@ -52,8 +52,7 @@ const Services = () => {
             Sve za Vaš dom!
           </h2>
           <p className="text-muted-foreground text-lg">
-            Od jednostavnog krečenja do kompleksnih fasaderskih projekata - 
-            nudimo širok spektar usluga prilagođenih vašim potrebama.
+            Bilo da Vam treba klasično krečenje, adaptacija enterijera ili ugradnja termoizolacije (demit fasade) na pravom ste mestu!
           </p>
         </div>
 
