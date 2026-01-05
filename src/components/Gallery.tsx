@@ -1,11 +1,11 @@
 import { useState } from "react";
-import facadeWork from "@/assets/facade-work.jpg";
+import facadeMain from "@/assets/facade-main.jpg";
 import gypsumWork from "@/assets/gypsum-work.jpg";
 import paintingWork from "@/assets/painting-work.jpg";
 
 const galleryItems = [
   {
-    src: facadeWork,
+    src: facadeMain,
     alt: "Fasaderski radovi",
     category: "Fasade",
     title: "Obnova fasade stambene zgrade",
