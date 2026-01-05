@@ -1,13 +1,27 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import gypsumWork from "@/assets/gypsum-work.jpg";
+import gipsaniWork1 from "@/assets/gipsani-work-1.jpg";
+import gipsaniWork2 from "@/assets/gipsani-work-2.jpg";
+import gipsaniWork3 from "@/assets/gipsani-work-3.jpg";
+import gipsaniWork4 from "@/assets/gipsani-work-4.jpg";
 
 const gipsaniImages = [
   {
-    src: gypsumWork,
+    src: gipsaniWork1,
     title: "Gipsani radovi",
   },
-  // Dodajte više slika ovde
+  {
+    src: gipsaniWork2,
+    title: "Gipsani radovi",
+  },
+  {
+    src: gipsaniWork3,
+    title: "Gipsani radovi",
+  },
+  {
+    src: gipsaniWork4,
+    title: "Gipsani radovi",
+  },
 ];
 
 const GipsaniGallery = () => {
@@ -53,7 +67,7 @@ const GipsaniGallery = () => {
         {/* Call to Action */}
         <div className="text-center mt-12 p-8 bg-secondary rounded-xl">
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-            Potrebni Vam su gipsani radovi?
+            Potrebni su Vam gipsani radovi?
           </h2>
           <a
             href="tel:+381693767622"
