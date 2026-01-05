@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const services = [
   {
     icon: Paintbrush,
-    title: "Unutrašnje Bojenje",
+    title: "Krečenje",
     description: "Profesionalno bojenje unutrašnjih zidova i plafona sa vrhunskim bojama.",
   },
   {
