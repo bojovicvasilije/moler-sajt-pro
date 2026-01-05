@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import facadeMain from "@/assets/facade-main.jpg";
 import gypsumWork from "@/assets/gypsum-work.jpg";
-import paintingWork from "@/assets/painting-work.jpg";
+import molerskiWork from "@/assets/molerski-work-1.jpg";
 
 const galleryItems = [
   {
@@ -18,7 +18,7 @@ const galleryItems = [
     title: "Montaža gipsanih ploča",
   },
   {
-    src: paintingWork,
+    src: molerskiWork,
     alt: "Molerski radovi",
     category: "Molerski radovi",
     title: "Profesionalno farbanje zidova",
