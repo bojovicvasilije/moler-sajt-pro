@@ -28,7 +28,7 @@ const FasadeGallery = () => {
             Fasaderski Radovi
           </h1>
           <p className="text-muted-foreground text-lg mt-2">
-            Pogledajte naše projekte fasadnih radova - termoizolacija, završna obrada i dekorativne fasade.
+            Pogledajte naše projekte fasadnih radova.
           </p>
         </div>
       </div>
