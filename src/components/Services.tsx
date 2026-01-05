@@ -30,7 +30,7 @@ const services = [
   {
     icon: Shield,
     title: "Garancija Kvaliteta",
-    description: "Garantujemo kvalitet svih izvedenih radova uz korišćenje premium materijala.",
+    description: "Radimo kako treba – ili ne radimo uopšte. Koristimo proverene materijale i stojimo 100% iza svakog izvedenog posla.",
   },
 ];
 
