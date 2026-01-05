@@ -15,7 +15,7 @@ const services = [
   {
     icon: Home,
     title: "Gletovanje",
-    description: "Priprema površina, gletovanje zidova i plafona za savršeno glatku završnicu.",
+    description: "Profesionalno gletovanje do savršeno ravne površine — bez talasa, bez fleka i bez popravki. Brzo, precizno i spremno za savršeno krečenje. Ako hoćete zidove kao iz kataloga, zovite odmah.",
   },
   {
     icon: Layers,
