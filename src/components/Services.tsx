@@ -5,7 +5,7 @@ const services = [
   {
     icon: Paintbrush,
     title: "Krečenje",
-    description: "Profesionalno bojenje unutrašnjih zidova i plafona sa vrhunskim bojama.",
+    description: "Vrhunsko krečenje bez kašnjenja i bez nereda. Brzo završavamo, ostavljamo savršene zidove i čist prostor. Ako hoćete kvalitet – zovite sada.",
   },
   {
     icon: Building2,
