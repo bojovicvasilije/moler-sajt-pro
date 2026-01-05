@@ -79,14 +79,11 @@ const FasadeGallery = () => {
           <h2 className="font-display text-2xl font-bold text-foreground mb-4">
             Potrebna Vam je nova fasada?
           </h2>
-          <p className="text-muted-foreground mb-6">
-            Kontaktirajte nas za besplatnu procenu i ponudu.
-          </p>
           <a
             href="#kontakt"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
           >
-            Zatražite ponudu
+            Kontaktirajte nas
           </a>
         </div>
       </div>
