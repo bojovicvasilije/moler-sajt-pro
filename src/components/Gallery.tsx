@@ -1,7 +1,7 @@
 import { useState } from "react";
 import facadeWork from "@/assets/facade-work.jpg";
 import gypsumWork from "@/assets/gypsum-work.jpg";
-import plasterWork from "@/assets/plaster-work.jpg";
+import paintingWork from "@/assets/painting-work.jpg";
 
 const galleryItems = [
   {
@@ -17,16 +17,16 @@ const galleryItems = [
     title: "Montaža gipsanih ploča",
   },
   {
-    src: plasterWork,
-    alt: "Gletovanje",
-    category: "Gletovanje",
-    title: "Dekorativna malter tehnika",
+    src: paintingWork,
+    alt: "Molerski radovi",
+    category: "Molerski radovi",
+    title: "Profesionalno farbanje zidova",
   },
 ];
 
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState("Sve");
-  const filters = ["Sve", "Fasade", "Gipsani radovi", "Gletovanje"];
+  const filters = ["Sve", "Fasade", "Gipsani radovi", "Molerski radovi"];
 
   const filteredItems = activeFilter === "Sve" 
     ? galleryItems 
