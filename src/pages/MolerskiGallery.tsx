@@ -1,13 +1,12 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import paintingWork from "@/assets/painting-work.jpg";
+import molerskiWork1 from "@/assets/molerski-work-1.jpg";
 
 const molerskiImages = [
   {
-    src: paintingWork,
+    src: molerskiWork1,
     title: "Molerski radovi",
   },
-  // Dodajte više slika ovde
 ];
 
 const MolerskiGallery = () => {
