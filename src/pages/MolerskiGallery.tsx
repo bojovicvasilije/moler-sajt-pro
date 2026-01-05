@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import molerskiWork1 from "@/assets/molerski-work-1.jpg";
@@ -30,6 +31,10 @@ const molerskiImages = [
 ];
 
 const MolerskiGallery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
