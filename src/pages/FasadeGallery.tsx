@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import facadeMain from "@/assets/facade-main.jpg";
@@ -35,6 +36,10 @@ const facadeImages = [
 ];
 
 const FasadeGallery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}

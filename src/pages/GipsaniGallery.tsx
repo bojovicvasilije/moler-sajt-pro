@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import gipsaniWorkMain from "@/assets/gipsani-work-main.jpg";
@@ -30,6 +31,10 @@ const gipsaniImages = [
 ];
 
 const GipsaniGallery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
