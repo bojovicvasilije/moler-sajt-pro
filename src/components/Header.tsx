@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Menu, X, Phone, Clock, Instagram } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.jpg";
 
 const Header = () => {
@@ -11,7 +10,6 @@ const Header = () => {
     { href: "#usluge", label: "Usluge" },
     { href: "#galerija", label: "Galerija" },
     { href: "#o-nama", label: "O Nama" },
-    { href: "#kontakt", label: "Kontakt" },
   ];
 
   return (
@@ -72,13 +70,6 @@ const Header = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden lg:block">
-            <Button asChild>
-              <a href="#kontakt">Zatražite Ponudu</a>
-            </Button>
-          </div>
-
           {/* Mobile Menu Button */}
           <button
             className="lg:hidden p-2 text-foreground"
@@ -103,9 +94,6 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button asChild className="mt-2">
-                <a href="#kontakt">Zatražite Ponudu</a>
-              </Button>
             </div>
           </div>
         )}

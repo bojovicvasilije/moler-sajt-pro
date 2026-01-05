@@ -54,7 +54,6 @@ const Footer = () => {
                 { href: "#usluge", label: "Usluge" },
                 { href: "#galerija", label: "Galerija" },
                 { href: "#o-nama", label: "O Nama" },
-                { href: "#kontakt", label: "Kontakt" },
               ].map((link) => (
                 <li key={link.href}>
                   <a
