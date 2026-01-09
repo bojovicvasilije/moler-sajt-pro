@@ -45,7 +45,7 @@ const About = () => {
             <div className="mt-8 space-y-4">
               {[
                 "Besplatan izlazak na teren",
-                "Korišćenje premium materijala",
+                "Merenje, specifikacija (materijala i radova)",
                 "Čisto i uredno radno mesto",
                 "Poštovanje rokova",
               ].map((feature, index) => (
