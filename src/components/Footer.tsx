@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin, Instagram } from "lucide-react";
 import logo from "@/assets/logo.jpg";
+import sertifikat from "@/assets/sertifikat.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -7,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-background">
       <div className="container py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-10">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
@@ -96,6 +97,18 @@ const Footer = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Lokacija - Kruševac"
+              />
+            </div>
+          </div>
+
+          {/* Sertifikat */}
+          <div>
+            <h4 className="font-display text-lg font-semibold mb-4">Sertifikat</h4>
+            <div className="w-full h-40 rounded-lg overflow-hidden">
+              <img 
+                src={sertifikat} 
+                alt="Sertifikat - Diploma Moler" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
               />
             </div>
           </div>
