@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-painting.jpg";
 
@@ -50,21 +50,17 @@ const Hero = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="animate-fade-up opacity-0" style={{ animationDelay: "0.5s", animationFillMode: "forwards" }}>
+          {/* CTA Button with Scroll Indicator */}
+          <div className="animate-fade-up opacity-0 flex flex-col items-center gap-4" style={{ animationDelay: "0.5s", animationFillMode: "forwards" }}>
             <Button variant="outline" size="lg" asChild className="bg-transparent border-hero-text/30 text-hero-text hover:bg-hero-text/10 hover:text-hero-text">
               <a href="#galerija">
                 Pogledajte Radove
               </a>
             </Button>
+            <a href="#galerija" className="animate-bounce mt-2">
+              <ChevronDown className="w-8 h-8 text-hero-text/60" />
+            </a>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-8 h-12 rounded-full border-2 border-hero-text/30 flex items-start justify-center p-2">
-          <div className="w-1.5 h-3 rounded-full bg-hero-text/50" />
         </div>
       </div>
     </section>
