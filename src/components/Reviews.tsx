@@ -69,7 +69,6 @@ const Reviews = () => {
               {/* Reviewer Info */}
               <div className="border-t border-border/50 pt-4">
                 <p className="font-semibold text-foreground">{review.name}</p>
-                <p className="text-xs text-primary">{review.service}</p>
               </div>
             </div>
           ))}
