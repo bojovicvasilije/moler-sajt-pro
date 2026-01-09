@@ -36,8 +36,7 @@ const Hero = () => {
           </h1>
 
           <p className="animate-fade-up opacity-0 text-lg md:text-xl text-hero-text/80 mb-8 leading-relaxed" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
-            Više od 15 godina iskustva u molerskim i fasaderskim radovima. 
-            Pretvorimo vaš prostor u remek-delo sa preciznošću i pažnjom prema detaljima.
+            "ADS Dekor" je sinonim za grupu profesionalaca, sa višedecenijskim iskustvom, koji će obaviti izvanredan posao u oblasti završnih građevinskih radova.
           </p>
 
           {/* Features */}
