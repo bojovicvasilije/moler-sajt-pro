@@ -10,7 +10,7 @@ const services = [
   {
     icon: Layers,
     title: "Gipsani Radovi",
-    description: "Loš gips se vidi zauvek. Mi radimo samo kako treba – ravno, čvrsto i estetski savršeno. Gipsani radovi koji podižu vrednost prostora. Pozovite!",
+    description: "Spušteni plafoni, kaskade, pregradni zidovi, oblaganje postojećih zidova, LED lajsne i svetlosne rampe, zatvaranje greda i stubova, kutije za klime, ventilaciju, sve što Vi zamislite, mi sprovodimo u delo.",
   },
   {
     icon: Building2,
