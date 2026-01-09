@@ -48,7 +48,7 @@ const Gallery = () => {
             Naši Radovi
           </span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
-            Galerija Projekata
+            Galerija radova
           </h2>
           <p className="text-muted-foreground text-lg">
             Pogledajte neke od naših uspešno završenih projekata i uverite se u kvalitet našeg rada.
