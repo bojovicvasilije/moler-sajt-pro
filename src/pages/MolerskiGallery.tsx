@@ -41,7 +41,12 @@ const MolerskiGallery = () => {
       <div className="bg-secondary py-8">
         <div className="container">
           <Link 
-            to="/#galerija" 
+            to="/"
+            onClick={() => {
+              setTimeout(() => {
+                document.getElementById('galerija')?.scrollIntoView({ behavior: 'smooth' });
+              }, 100);
+            }}
             className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors mb-4"
           >
             <ArrowLeft className="w-5 h-5" />
