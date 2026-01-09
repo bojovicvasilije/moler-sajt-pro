@@ -46,7 +46,7 @@ const About = () => {
               {[
                 "Besplatan izlazak na teren",
                 "Merenje, specifikacija (materijala i radova)",
-                "Čisto i uredno radno mesto",
+                "Zakazivanje termina radova",
                 "Poštovanje rokova",
               ].map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
