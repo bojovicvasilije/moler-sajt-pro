@@ -1,4 +1,4 @@
-import { Paintbrush, Home, Building2, Sparkles, Palette, Shield, Layers } from "lucide-react";
+import { Paintbrush, Home, Building2, Sparkles, Palette, Shield, Layers, SquareStack } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
@@ -16,6 +16,11 @@ const services = [
     icon: Building2,
     title: "Fasaderski Radovi",
     description: "Ugradnja termoizolacije(stiropor/vuna), lepak & mrežica, finalna obrada, fasada koja traje decenijama!",
+  },
+  {
+    icon: SquareStack,
+    title: "Obrada špaletni",
+    description: "",
   },
   {
     icon: Sparkles,
