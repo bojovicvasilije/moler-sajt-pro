@@ -20,7 +20,7 @@ const services = [
   {
     icon: SquareStack,
     title: "Obrada špaletni",
-    description: "",
+    description: "Nakon ugradnje prozora ili vrata, gotovo uvek je potrebno obraditi špaletne, a upravo to je naša specijalnost!",
   },
   {
     icon: Sparkles,
