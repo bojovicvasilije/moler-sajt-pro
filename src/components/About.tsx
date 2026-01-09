@@ -22,16 +22,22 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground text-lg">
               <p>
-                Sa više od 15 godina iskustva u molerskim i fasaderskim radovima, 
-                pružamo vrhunske usluge stanovnicima Kruševca i okoline.
+                ADS Dekor je firma specijalizovana za molersko-farbarske, gipsane, fasaderske i dekorativne radove za klijente iz Kruševca. Naš cilj je da prostor izgleda uredno, promišljeno i kvalitetno urađeno iz prvog puta.
               </p>
               <p>
-                Naš tim kvalifikovanih majstora koristi samo prvoklasne materijale 
-                i moderne tehnike kako bi svaki projekat bio izveden savršeno.
+                Naša strast prema detaljima, čini nas, pravim umetnicima ovog zanata.
               </p>
               <p>
-                Posvećeni smo kvalitetu, tačnosti i potpunom zadovoljstvu naših klijenata. 
-                Svaki prostor tretiramo kao da je naš sopstveni.
+                Od samog početka vodimo se jednom jednostavnom idejom: Najbolja preporuka je posao koji ne mora da se popravlja.
+              </p>
+              <p>
+                Iskustvo smo gradili godinama, uključujući i rad u inostranstvu, gde se kvalitet, disciplina i urednost podrazumevaju. Upravo te standarde danas primenjujemo u svakom poslu, bez skraćivanja procesa i bez improvizacije.
+              </p>
+              <p>
+                Za nas su poverenje klijenata i urednost rada jednako važni kao i sam završni izgled. Ne obećavamo ono što ne možemo da ispunimo, ali ono što dogovorimo, isporučujemo tačno, pedantno, kvalitetno i na vreme!
+              </p>
+              <p>
+                Kontaktirajte nas i dopustite da Vam pružimo uslugu vrhunskog kvaliteta, koja će prevazići Vaša očekivanja.
               </p>
             </div>
 
