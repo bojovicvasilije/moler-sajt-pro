@@ -18,7 +18,7 @@ const About = () => {
               O Nama
             </span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-6">
-              Vaš Pouzdan Partner za Molerske Radove
+              Vaš Pouzdan Partner za Završne Radove
             </h2>
             <div className="space-y-4 text-muted-foreground text-lg">
               <p>
