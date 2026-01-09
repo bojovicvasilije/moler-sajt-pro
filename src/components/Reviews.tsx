@@ -22,8 +22,7 @@ const reviews = [
   {
     name: "Jelena Stojanović",
     rating: 5,
-    text: "Dekorativne tehnike su prelep završetak našeg doma. Hvala na strpljenju i profesionalizmu!",
-    service: "Dekorativne tehnike",
+    text: "Travertino tehnika koju su majstori uradili u mom stanu, me je prosto oduševila, pre radova ono što sam videla na njihovim fotografijama mi je delovalo fantastično, ali uživo... nemam reči! Stvarno mogu samo da kažem sve preporuke za ekipu...",
   },
 ];
 
