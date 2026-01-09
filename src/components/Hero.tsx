@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-painting.jpg";
 
 const Hero = () => {
   const features = [
-    "Profesionalni molerski radovi",
+    "Molerski radovi",
     "Fasaderski radovi",
     "Gipsani radovi",
   ];
