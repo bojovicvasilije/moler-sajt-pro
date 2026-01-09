@@ -23,11 +23,17 @@ const galleryItems = [
     category: "Molerski radovi",
     title: "Profesionalno farbanje zidova",
   },
+  {
+    src: molerskiWork,
+    alt: "Dekorativne tehnike",
+    category: "Dekorativne tehnike",
+    title: "Dekorativne zidne tehnike",
+  },
 ];
 
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState("Sve");
-  const filters = ["Sve", "Fasaderski radovi", "Gipsani radovi", "Molerski radovi"];
+  const filters = ["Sve", "Fasaderski radovi", "Gipsani radovi", "Molerski radovi", "Dekorativne tehnike"];
 
   const filteredItems = activeFilter === "Sve" 
     ? galleryItems 
