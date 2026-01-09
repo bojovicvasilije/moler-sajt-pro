@@ -75,7 +75,7 @@ const About = () => {
                 <div className="w-16 h-16 mx-auto mb-4 rounded-xl bg-primary/10 flex items-center justify-center">
                   <stat.icon className="w-8 h-8 text-primary" />
                 </div>
-                <div className={`font-display font-bold text-foreground mb-2 ${stat.value === "Sertifikovani" ? "text-2xl" : "text-4xl"}`}>
+                <div className={`font-display font-bold text-foreground mb-2 ${stat.value === "Sertifikovani" ? "text-lg sm:text-xl md:text-2xl" : "text-3xl md:text-4xl"}`}>
                   {stat.value}
                 </div>
                 <div className="text-muted-foreground">{stat.label}</div>
