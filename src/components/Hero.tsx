@@ -7,6 +7,7 @@ const Hero = () => {
     "Molerski radovi",
     "Fasaderski radovi",
     "Gipsani radovi",
+    "Dekoracije",
   ];
 
   return (
