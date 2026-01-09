@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="max-w-2xl">
           <div className="animate-fade-up opacity-0" style={{ animationDelay: "0.1s", animationFillMode: "forwards" }}>
             <span className="inline-block px-4 py-2 rounded-full bg-primary/20 text-primary-foreground text-sm font-medium mb-6 backdrop-blur-sm border border-primary/30">
-              Kruševac i okolina
+              Kruševac & okolina
             </span>
           </div>
 
