@@ -3,7 +3,6 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import molerskiNew1 from "@/assets/molerski-new-1.jpg";
 import molerskiNew2 from "@/assets/molerski-new-2.jpg";
-import molerskiNew3 from "@/assets/molerski-new-3.jpg";
 
 const molerskiImages = [
   {
@@ -12,10 +11,6 @@ const molerskiImages = [
   },
   {
     src: molerskiNew2,
-    title: "Molerski radovi",
-  },
-  {
-    src: molerskiNew3,
     title: "Molerski radovi",
   },
 ];
