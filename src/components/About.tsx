@@ -1,11 +1,12 @@
 import { Award, Users, Calendar, ThumbsUp, BadgeCheck, HardHat } from "lucide-react";
+import { ReactNode } from "react";
 
-const stats = [
+const stats: { icon: typeof Calendar; value: string; label: ReactNode }[] = [
   { icon: Calendar, value: "15+", label: "Godina iskustva" },
   { icon: Users, value: "500+", label: "Zadovoljnih klijenata" },
   { icon: ThumbsUp, value: "1000+", label: "Završenih projekata" },
   { icon: Award, value: "100%", label: "Garancija kvaliteta" },
-  { icon: BadgeCheck, value: "", label: "Sertifikovani izvođači radova" },
+  { icon: BadgeCheck, value: "", label: <><span className="font-bold">Sertifikovani</span> izvođači radova</> },
   { icon: HardHat, value: "7+", label: "Majstora" },
 ];
 
