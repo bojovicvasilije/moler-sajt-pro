@@ -1,4 +1,4 @@
-import { Paintbrush, Home, Building2, Sparkles, Palette, Shield, Layers, SquareStack } from "lucide-react";
+import { Paintbrush, Home, Building2, Sparkles, Palette, Shield, Layers, DoorOpen } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
@@ -18,7 +18,7 @@ const services = [
     description: "Ugradnja termoizolacije(stiropor/vuna), lepak & mrežica, finalna obrada, fasada koja traje decenijama!",
   },
   {
-    icon: SquareStack,
+    icon: DoorOpen,
     title: "Obrada špaletni",
     description: "Nakon ugradnje prozora ili vrata, gotovo uvek je potrebno obraditi špaletne, a upravo to je naša specijalnost!",
   },
