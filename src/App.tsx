@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import FasadeGallery from "./pages/FasadeGallery";
 import MolerskiGallery from "./pages/MolerskiGallery";
 import GipsaniGallery from "./pages/GipsaniGallery";
+import DekorativneGallery from "./pages/DekorativneGallery";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/fasade" element={<FasadeGallery />} />
             <Route path="/molerski" element={<MolerskiGallery />} />
             <Route path="/gipsani" element={<GipsaniGallery />} />
+            <Route path="/dekorativne" element={<DekorativneGallery />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

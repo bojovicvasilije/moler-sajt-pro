@@ -120,6 +120,14 @@ const Gallery = () => {
               );
             }
 
+            if (item.category === "Dekorativne tehnike") {
+              return (
+                <Link key={index} to="/dekorativne">
+                  {content}
+                </Link>
+              );
+            }
+
             return <div key={index}>{content}</div>;
           })}
         </div>
