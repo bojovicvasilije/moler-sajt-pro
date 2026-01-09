@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-background">
       <div className="container py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
@@ -83,6 +83,23 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+
+          {/* Google Map */}
+          <div>
+            <h4 className="font-display text-lg font-semibold mb-4">Lokacija</h4>
+            <div className="w-full h-40 rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46153.04774453682!2d21.28!3d43.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4756173c2e07e251%3A0x9d4f5f0f8f0f0f0f!2sKru%C5%A1evac%2C%20Serbia!5e0!3m2!1sen!2srs!4v1700000000000!5m2!1sen!2srs"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Lokacija - Kruševac"
+              />
+            </div>
+          </div>
         </div>
       </div>
 
@@ -94,20 +111,6 @@ const Footer = () => {
             <p>Kvalitet i preciznost u svakom potezu četke.</p>
           </div>
         </div>
-      </div>
-
-      {/* Google Map */}
-      <div className="w-full h-80">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46153.04774453682!2d21.28!3d43.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4756173c2e07e251%3A0x9d4f5f0f8f0f0f0f!2sKru%C5%A1evac%2C%20Serbia!5e0!3m2!1sen!2srs!4v1700000000000!5m2!1sen!2srs"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Lokacija - Kruševac"
-        />
       </div>
     </footer>
   );
