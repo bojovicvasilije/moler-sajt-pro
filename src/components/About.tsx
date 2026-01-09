@@ -6,6 +6,7 @@ const stats = [
   { icon: ThumbsUp, value: "1000+", label: "Završenih projekata" },
   { icon: Award, value: "100%", label: "Garancija kvaliteta" },
   { icon: BadgeCheck, value: "", label: "Sertifikovani izvođači radova" },
+  { icon: Users, value: "7+", label: "Majstora" },
 ];
 
 const About = () => {
