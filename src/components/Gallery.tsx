@@ -8,7 +8,7 @@ const galleryItems = [
   {
     src: facadeMain,
     alt: "Fasaderski radovi",
-    category: "Fasade",
+    category: "Fasaderski radovi",
     title: "Obnova fasade stambene zgrade",
   },
   {
@@ -27,7 +27,7 @@ const galleryItems = [
 
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState("Sve");
-  const filters = ["Sve", "Fasade", "Gipsani radovi", "Molerski radovi"];
+  const filters = ["Sve", "Fasaderski radovi", "Gipsani radovi", "Molerski radovi"];
 
   const filteredItems = activeFilter === "Sve" 
     ? galleryItems 
@@ -90,7 +90,7 @@ const Gallery = () => {
             );
 
             // Wrap in Link based on category
-            if (item.category === "Fasade") {
+            if (item.category === "Fasaderski radovi") {
               return (
                 <Link key={index} to="/fasade">
                   {content}
