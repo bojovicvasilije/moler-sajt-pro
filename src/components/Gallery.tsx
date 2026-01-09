@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import facadeMain from "@/assets/facade-main.jpg";
 import gypsumWork from "@/assets/gipsani-work-main.jpg";
 import molerskiWork from "@/assets/molerski-new-3.jpg";
+import dekorativneWork from "@/assets/dekorativne-work.jpg";
 
 const galleryItems = [
   {
@@ -24,7 +25,7 @@ const galleryItems = [
     title: "Profesionalno farbanje zidova",
   },
   {
-    src: molerskiWork,
+    src: dekorativneWork,
     alt: "Dekorativne tehnike",
     category: "Dekorativne tehnike",
     title: "Dekorativne zidne tehnike",
