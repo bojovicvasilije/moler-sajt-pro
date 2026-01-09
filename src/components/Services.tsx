@@ -25,7 +25,7 @@ const services = [
   {
     icon: Sparkles,
     title: "Dekorativne Tehnike",
-    description: "Radimo dekorativne tehnike koje prostoru daju luksuzni izgled – precizno, čisto i bez improvizacije. Ako želite zidove koji ostavljaju utisak na prvi pogled, zovite odmah.",
+    description: "Radovi koji transformišu klasičan zid u ručno rađeno remek-delo. Sahara, Travertino, Stencil, Stucco Marmo, a pored toga, takođe ugrađujemo, dekorativne lajsne, ornamente i tapete.",
   },
   {
     icon: Shield,
