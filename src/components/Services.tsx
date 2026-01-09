@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const services = [
   {
     icon: Paintbrush,
-    title: "Krečenje",
+    title: "Molerski radovi",
     description: "Vrhunsko krečenje bez kašnjenja i bez nereda. Brzo završavamo, ostavljamo savršene zidove i čist prostor. Ako hoćete kvalitet – zovite sada.",
   },
   {
