@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Phone, Clock, Instagram } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo-new.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
