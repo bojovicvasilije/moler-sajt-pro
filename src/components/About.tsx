@@ -39,9 +39,6 @@ const About = () => {
               <p>
                 Za nas su poverenje klijenata i urednost rada jednako važni kao i sam završni izgled. Ne obećavamo ono što ne možemo da ispunimo, ali ono što dogovorimo, isporučujemo tačno, pedantno, kvalitetno i na vreme!
               </p>
-              <p>
-                Kontaktirajte nas i dopustite da Vam pružimo uslugu vrhunskog kvaliteta, koja će prevazići Vaša očekivanja.
-              </p>
             </div>
 
             {/* Features List */}
