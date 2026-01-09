@@ -5,7 +5,7 @@ const services = [
   {
     icon: Paintbrush,
     title: "Molerski radovi",
-    description: "Vrhunsko krečenje bez kašnjenja i bez nereda. Brzo završavamo, ostavljamo savršene zidove i čist prostor. Ako hoćete kvalitet – zovite sada.",
+    description: "Gletovanje, sitne popravke, besprekorna zaštita, farbamo & krečimo BUKVALNO SVE!",
   },
   {
     icon: Building2,
