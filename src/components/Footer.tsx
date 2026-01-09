@@ -106,9 +106,8 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-background/10">
         <div className="container py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-background/60">
+          <div className="text-sm text-background/60">
             <p>© {currentYear} ADS Dekor 037 Kruševac. Sva prava zadržana.</p>
-            <p>Kvalitet i preciznost u svakom potezu četke.</p>
           </div>
         </div>
       </div>
