@@ -33,9 +33,9 @@ const Hero = () => {
 
           <h1 className="animate-fade-up opacity-0 font-display text-4xl md:text-5xl lg:text-7xl font-bold text-hero-text leading-tight mb-8 tracking-wide" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
             <span className="md:inline">Moleraj</span>
-            <span className="hidden md:inline text-hero-text/40 mx-4">•</span>
+            <span className="hidden md:inline text-hero-text/60 mx-2">,</span>
             <span className="md:inline">Fasade</span>
-            <span className="hidden md:inline text-hero-text/40 mx-4">•</span>
+            <span className="hidden md:inline text-hero-text/60 mx-2">,</span>
             <span className="block md:inline text-primary">Gips</span>
           </h1>
 
