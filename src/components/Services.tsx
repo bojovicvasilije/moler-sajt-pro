@@ -8,14 +8,14 @@ const services = [
     description: "Gletovanje, sitne popravke, besprekorna zaštita, farbamo & krečimo BUKVALNO SVE!",
   },
   {
-    icon: Building2,
-    title: "Fasaderski Radovi",
-    description: "Ugradnja termoizolacije(stiropor/vuna), lepak & mrežica, finalna obrada, fasada koja traje decenijama!",
-  },
-  {
     icon: Layers,
     title: "Gipsani Radovi",
     description: "Loš gips se vidi zauvek. Mi radimo samo kako treba – ravno, čvrsto i estetski savršeno. Gipsani radovi koji podižu vrednost prostora. Pozovite!",
+  },
+  {
+    icon: Building2,
+    title: "Fasaderski Radovi",
+    description: "Ugradnja termoizolacije(stiropor/vuna), lepak & mrežica, finalna obrada, fasada koja traje decenijama!",
   },
   {
     icon: Sparkles,
