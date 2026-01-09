@@ -1,21 +1,21 @@
 import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import molerskiWork1 from "@/assets/molerski-work-1.jpg";
-import molerskiWork2 from "@/assets/molerski-work-2.jpg";
-import molerskiWork3 from "@/assets/molerski-work-3.jpg";
+import dekorativne1 from "@/assets/dekorativne-1.jpg";
+import dekorativne2 from "@/assets/dekorativne-2.jpg";
+import dekorativne3 from "@/assets/dekorativne-3.jpg";
 
 const dekorativneImages = [
   {
-    src: molerskiWork1,
+    src: dekorativne1,
     title: "Dekorativna tehnika",
   },
   {
-    src: molerskiWork2,
+    src: dekorativne2,
     title: "Dekorativna tehnika",
   },
   {
-    src: molerskiWork3,
+    src: dekorativne3,
     title: "Dekorativna tehnika",
   },
 ];
