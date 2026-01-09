@@ -24,7 +24,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container relative z-10">
-        <div className="max-w-2xl">
+        <div className="max-w-2xl mx-auto text-center md:text-center md:mx-auto">
           <div className="animate-fade-up opacity-0" style={{ animationDelay: "0.1s", animationFillMode: "forwards" }}>
             <span className="inline-block px-4 py-2 rounded-full bg-primary/20 text-primary-foreground text-sm font-medium mb-6 backdrop-blur-sm border border-primary/30">
               Kruševac & okolina
@@ -41,7 +41,7 @@ const Hero = () => {
           </p>
 
           {/* Features */}
-          <div className="animate-fade-up opacity-0 flex flex-wrap gap-4 mb-10" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
+          <div className="animate-fade-up opacity-0 flex flex-wrap justify-center gap-4 mb-10" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
             {features.map((feature, index) => (
               <div key={index} className="flex items-center gap-2 text-hero-text/90">
                 <CheckCircle className="w-5 h-5 text-primary" />
