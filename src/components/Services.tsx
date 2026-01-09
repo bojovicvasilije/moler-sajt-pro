@@ -8,6 +8,11 @@ const services = [
     description: "Gletovanje, sitne popravke, besprekorna zaštita, farbamo & krečimo BUKVALNO SVE!",
   },
   {
+    icon: DoorOpen,
+    title: "Obrada špaletni",
+    description: "Nakon ugradnje prozora ili vrata, gotovo uvek je potrebno obraditi špaletne, a upravo to je naša specijalnost!",
+  },
+  {
     icon: Layers,
     title: "Gipsani Radovi",
     description: "Spušteni plafoni, kaskade, pregradni zidovi, oblaganje postojećih zidova, LED lajsne i svetlosne rampe, zatvaranje greda i stubova, kutije za klime, ventilaciju, sve što Vi zamislite, mi sprovodimo u delo.",
@@ -16,11 +21,6 @@ const services = [
     icon: Building2,
     title: "Fasaderski Radovi",
     description: "Ugradnja termoizolacije(stiropor/vuna), lepak & mrežica, finalna obrada, fasada koja traje decenijama!",
-  },
-  {
-    icon: DoorOpen,
-    title: "Obrada špaletni",
-    description: "Nakon ugradnje prozora ili vrata, gotovo uvek je potrebno obraditi špaletne, a upravo to je naša specijalnost!",
   },
   {
     icon: Sparkles,
