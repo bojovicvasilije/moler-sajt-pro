@@ -40,7 +40,7 @@ const Reviews = () => {
             Šta kažu naši klijenti
           </h2>
           <p className="text-muted-foreground text-lg">
-            Pročitajte iskustva naših zadovoljnih klijenata.
+            Pročitajte iskustva nekih od naših zadovoljnih klijenata.
           </p>
         </div>
 
