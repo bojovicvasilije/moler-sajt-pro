@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import facadeMain from "@/assets/facade-main.jpg";
 import gypsumWork from "@/assets/gipsani-work-main.jpg";
-import molerskiWork from "@/assets/molerski-work-1.jpg";
+import molerskiWork from "@/assets/molerski-new-3.jpg";
 
 const galleryItems = [
   {
