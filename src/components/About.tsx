@@ -48,6 +48,7 @@ const About = () => {
                 "Merenje, specifikacija (materijala i radova)",
                 "Zakazivanje termina",
                 "Pedantna izvedba radova",
+                "Poštovanje rokova",
               ].map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
