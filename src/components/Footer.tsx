@@ -47,6 +47,7 @@ const Footer = () => {
                 { href: "#pocetna", label: "Početna" },
                 { href: "#usluge", label: "Usluge" },
                 { href: "#galerija", label: "Galerija" },
+                { href: "#recenzije", label: "Preporuke" },
                 { href: "#o-nama", label: "O Nama" },
               ].map((link) => (
                 <li key={link.href}>
