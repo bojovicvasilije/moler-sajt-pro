@@ -66,19 +66,19 @@ const About = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 gap-4 md:gap-6">
             {stats.map((stat, index) => (
               <div
                 key={index}
-                className="bg-card rounded-2xl p-8 text-center shadow-soft border border-border/50"
+                className="bg-card rounded-2xl p-4 sm:p-6 md:p-8 text-center shadow-soft border border-border/50"
               >
-                <div className="w-16 h-16 mx-auto mb-4 rounded-xl bg-primary/10 flex items-center justify-center">
-                  <stat.icon className="w-8 h-8 text-primary" />
+                <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 mx-auto mb-3 md:mb-4 rounded-xl bg-primary/10 flex items-center justify-center">
+                  <stat.icon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-primary" />
                 </div>
-                <div className={`font-display font-bold text-foreground mb-2 ${stat.value === "Sertifikovani" ? "text-lg sm:text-xl md:text-2xl" : "text-3xl md:text-4xl"}`}>
+                <div className={`font-display font-bold text-foreground mb-1 md:mb-2 ${stat.value === "Sertifikovani" ? "text-base sm:text-lg md:text-xl leading-tight" : "text-2xl sm:text-3xl md:text-4xl"}`}>
                   {stat.value}
                 </div>
-                <div className="text-muted-foreground">{stat.label}</div>
+                <div className="text-muted-foreground text-xs sm:text-sm md:text-base">{stat.label}</div>
               </div>
             ))}
           </div>
