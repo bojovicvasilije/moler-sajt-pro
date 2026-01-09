@@ -24,16 +24,19 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container relative z-10">
-        <div className="max-w-2xl mx-auto text-center md:text-center md:mx-auto">
+        <div className="max-w-4xl mx-auto text-center">
           <div className="animate-fade-up opacity-0" style={{ animationDelay: "0.1s", animationFillMode: "forwards" }}>
             <span className="inline-block px-4 py-2 rounded-full bg-primary/20 text-primary-foreground text-sm font-medium mb-6 backdrop-blur-sm border border-primary/30">
               Kruševac & okolina
             </span>
           </div>
 
-          <h1 className="animate-fade-up opacity-0 font-display text-4xl md:text-5xl lg:text-6xl font-bold text-hero-text leading-tight mb-6" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
-            Moleraj, Fasade,
-            <span className="block text-primary">Gips</span>
+          <h1 className="animate-fade-up opacity-0 font-display text-4xl md:text-5xl lg:text-7xl font-bold text-hero-text leading-tight mb-8 tracking-wide" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <span className="md:inline">Moleraj</span>
+            <span className="hidden md:inline text-hero-text/40 mx-4">•</span>
+            <span className="md:inline">Fasade</span>
+            <span className="hidden md:inline text-hero-text/40 mx-4">•</span>
+            <span className="block md:inline text-primary">Gips</span>
           </h1>
 
           <p className="animate-fade-up opacity-0 text-lg md:text-xl text-hero-text/80 mb-8 leading-relaxed" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
