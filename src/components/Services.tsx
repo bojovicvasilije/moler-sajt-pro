@@ -13,11 +13,6 @@ const services = [
     description: "Radimo profesionalne fasaderske radove koji štite i podižu vrednost objekta. Brzo, kvalitetno i bez improvizacije. Toplotna izolacija, završna obrada i besprekoran izgled. Ako hoćete fasadu koja traje godinama — zovite odmah.",
   },
   {
-    icon: Home,
-    title: "Gletovanje",
-    description: "Profesionalno gletovanje do savršeno ravne površine — bez talasa, bez fleka i bez popravki. Brzo, precizno i spremno za savršeno krečenje. Ako hoćete zidove kao iz kataloga, zovite odmah.",
-  },
-  {
     icon: Layers,
     title: "Gipsani Radovi",
     description: "Loš gips se vidi zauvek. Mi radimo samo kako treba – ravno, čvrsto i estetski savršeno. Gipsani radovi koji podižu vrednost prostora. Pozovite!",
