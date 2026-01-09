@@ -24,8 +24,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-background/70 max-w-md mb-6">
-              Profesionalni molersko-fasaderski radovi sa više od 15 godina iskustva. 
-              Vaš pouzdan partner za ulepšavanje vašeg doma.
+              Kontaktirajte nas i dopustite da Vam pružimo uslugu vrhunskog kvaliteta, koja će prevazići Vaša očekivanja.
             </p>
             <div className="flex gap-4">
               <a
