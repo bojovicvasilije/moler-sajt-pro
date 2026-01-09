@@ -1,8 +1,9 @@
-import { Award, Users, Calendar, ThumbsUp } from "lucide-react";
+import { Award, Users, Calendar, ThumbsUp, BadgeCheck } from "lucide-react";
 
 const stats = [
   { icon: Calendar, value: "15+", label: "Godina iskustva" },
   { icon: Users, value: "500+", label: "Zadovoljnih klijenata" },
+  { icon: BadgeCheck, value: "", label: "Sertifikovani izvođači radova" },
   { icon: Award, value: "100%", label: "Garancija kvaliteta" },
   { icon: ThumbsUp, value: "1000+", label: "Završenih projekata" },
 ];
