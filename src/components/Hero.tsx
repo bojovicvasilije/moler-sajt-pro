@@ -32,11 +32,15 @@ const Hero = () => {
           </div>
 
           <h1 className="animate-fade-up opacity-0 font-display text-4xl md:text-5xl lg:text-7xl font-bold text-hero-text leading-tight mb-8 tracking-wide" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
-            <span className="md:inline">Moleraj</span>
+            {/* Mobile layout */}
+            <span className="block md:hidden">Moleraj, Fasade,</span>
+            <span className="block md:hidden text-primary">Gips</span>
+            {/* Desktop layout */}
+            <span className="hidden md:inline">Moleraj</span>
             <span className="hidden md:inline text-hero-text/60 mx-2">,</span>
-            <span className="md:inline">Fasade</span>
+            <span className="hidden md:inline">Fasade</span>
             <span className="hidden md:inline text-hero-text/60 mx-2">,</span>
-            <span className="block md:inline text-primary">Gips</span>
+            <span className="hidden md:inline text-primary">Gips</span>
           </h1>
 
           <p className="animate-fade-up opacity-0 text-lg md:text-xl text-hero-text/80 mb-8 leading-relaxed" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
