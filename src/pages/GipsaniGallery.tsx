@@ -1,32 +1,22 @@
 import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import gipsaniWorkMain from "@/assets/gipsani-work-main.jpg";
 import gipsaniWork1 from "@/assets/gipsani-work-1.jpg";
 import gipsaniWork2 from "@/assets/gipsani-work-2.jpg";
 import gipsaniWork3 from "@/assets/gipsani-work-3.jpg";
-import gipsaniWork4 from "@/assets/gipsani-work-4.jpg";
 
 const gipsaniImages = [
   {
-    src: gipsaniWorkMain,
-    title: "Gipsani radovi",
-  },
-  {
     src: gipsaniWork1,
-    title: "Gipsani radovi",
+    title: "Gipsani radovi - plafon",
   },
   {
     src: gipsaniWork2,
-    title: "Gipsani radovi",
+    title: "Profesionalna izrada",
   },
   {
     src: gipsaniWork3,
-    title: "Gipsani radovi",
-  },
-  {
-    src: gipsaniWork4,
-    title: "Gipsani radovi",
+    title: "Završeni gipsani radovi",
   },
 ];
 
@@ -73,7 +63,7 @@ const GipsaniGallery = () => {
               <img
                 src={image.src}
                 alt={image.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
               />
             </div>
           ))}
