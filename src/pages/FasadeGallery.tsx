@@ -1,37 +1,22 @@
 import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import facadeMain from "@/assets/facade-main.jpg";
 import facade2 from "@/assets/facade-2.jpg";
 import facade3 from "@/assets/facade-3.jpg";
 import facade4 from "@/assets/facade-4.jpg";
-import facade5 from "@/assets/facade-5.jpg";
-import facade6 from "@/assets/facade-6.jpg";
 
 const facadeImages = [
   {
-    src: facadeMain,
-    title: "Fasada porodične kuće",
-  },
-  {
     src: facade2,
-    title: "Moderna vila",
+    title: "Termoizolacija kuće",
   },
   {
     src: facade3,
-    title: "Stambena zgrada",
+    title: "Završena fasada",
   },
   {
     src: facade4,
-    title: "Porodična kuća",
-  },
-  {
-    src: facade5,
-    title: "Luksuzna vila",
-  },
-  {
-    src: facade6,
-    title: "Renovirana fasada",
+    title: "Profesionalna ugradnja",
   },
 ];
 
