@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import facadeMain from "@/assets/facade-main.jpg";
+import facadeWork from "@/assets/facade-work.jpg";
 import gypsumWork from "@/assets/gipsani-work-main.jpg";
 import molerskiWork from "@/assets/molerski-new-3.jpg";
 import dekorativneWork from "@/assets/dekorativne-work.jpg";
 
 const galleryItems = [
   {
-    src: facadeMain,
+    src: facadeWork,
     alt: "Fasaderski radovi",
     category: "Fasaderski radovi",
     title: "Obnova fasade stambene zgrade",
