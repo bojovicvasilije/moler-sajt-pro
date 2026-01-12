@@ -57,7 +57,7 @@ const GipsaniGallery = () => {
           {gipsaniImages.map((image, index) => (
             <div
               key={index}
-              className="group relative overflow-hidden rounded-xl aspect-square cursor-pointer animate-fade-in"
+              className="group relative overflow-hidden rounded-xl aspect-[3/4] cursor-pointer animate-fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <img
